@@ -6,5 +6,5 @@ services:
     environment:
       REDIRECT_TARGET: http://192.168.6.251:8006
     ports:
-      - 8888:80
+      - 777:80
     restart: unless-stopped
