@@ -1,17 +1,13 @@
 manifestVersion: 1
 id: sparkles-proxmox-dashboard
 name: proxmox
-tagline: Replace this tagline with your app's tagline
+tagline: Simple Proxmox monitor for Umbrel
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
 port: 4000
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
+  Monitor your Proxmox server directly from Umbrel!
 developer: Umbrel
 website: https://umbrel.com
 submitter: Umbrel
@@ -20,11 +16,12 @@ repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  First release - connects to Proxmox instance on local network.
 dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+env:
+  PROXMOX_HOST: 192.168.6.251
+  PROXMOX_PORT: 8006
