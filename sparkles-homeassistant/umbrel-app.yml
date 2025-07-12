@@ -1,13 +1,13 @@
 manifestVersion: 1
-id: sparkles-redirector
-name: Sparkles Redirector
+id: sparkles-homeasistant
+name: Homeassistant 
 tagline: Redirects to your internal service
-icon: https://svgur.com/i/mvA.svg
+icon: "./New_Home_Assistant_logo.svg"
 category: Utilities
 version: "1.0.0"
-port: 8888
+port: 8890
 description: >-
-  Simple redirector app to your IP:192.168.6.251:8006
+  homeasistant
 
 developer: YourName
 website: https://github.com/yourname/sparkles-redirector

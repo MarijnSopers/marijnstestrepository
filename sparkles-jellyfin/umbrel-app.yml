@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: sparkles-jellyfin
+name: Jellyfin 
+tagline: Redirects to your internal service
+icon: "./Jellyfin_-_icon-transparent.svg"
+category: Utilities
+version: "1.0.0"
+port: 8891
+description: >-
+  jellyfin
+
+developer: YourName
+website: https://github.com/yourname/sparkles-redirector
+submitter: YourName
+submission: https://github.com/yourname/sparkles-redirector
+repo: https://github.com/yourname/sparkles-redirector
+support: https://github.com/yourname/sparkles-redirector/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
