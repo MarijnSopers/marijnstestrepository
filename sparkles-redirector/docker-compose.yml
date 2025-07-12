@@ -1,14 +1,10 @@
 version: "3.7"
 
 services:
-
   app_proxy:
-    image: nginx:stable-alpine
+    image: morbz/docker-web-redirect:latest
     ports:
       - "3000:80"
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf:ro
     environment:
-      APP_HOST: 192.168.6.251
-      APP_PORT: 8006
+      - REDIRECT_TARGET="https://192.168.6.251:8006"
     restart: unless-stopped

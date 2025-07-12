@@ -1,36 +1,24 @@
 manifestVersion: 1
 id: sparkles-redirector
-name: Redirector
-tagline: Reverse proxy to 192.168.6.251:8006
+name: Redirector Proxy
+tagline: Redirect to your Proxmox server
 icon: https://svgur.com/i/mvA.svg
 category: Utilities
 version: "1.0.0"
 port: 3000
 description: >-
-  This app acts as a reverse proxy to your internal app running at 192.168.6.251:8006.
+  Redirects Umbrel port 3000 to your internal Proxmox host at 192.168.6.251:8006
 
 developer: YourName
-website: https://yourwebsite.example.com
+website: https://yourwebsite.com
 submitter: YourName
-submission: https://github.com/yourusername/umbrel-redirector
-repo: https://github.com/yourusername/umbrel-redirector
-support: https://github.com/yourusername/umbrel-redirector/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
+submission: https://github.com/yourgithub/sparkles-redirector
+repo: https://github.com/yourgithub/sparkles-redirector
+support: https://github.com/yourgithub/sparkles-redirector/issues
+gallery: []
 releaseNotes: >-
-  Initial release of the redirector app.
-
+  First release of the redirector app.
 dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-
-services:
-  redirector:
-    build: .
-    container_name: redirector
-    restart: unless-stopped
-    ports:
-      - 3000:80
-    environment:
-      - TZ=Etc/UTC
