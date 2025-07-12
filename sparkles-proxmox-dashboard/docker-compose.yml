@@ -1,7 +1,5 @@
 version: "3.7"
 
 services:
-  proxmox-dashboard:
-    image: nginx:alpine
-    container_name: sparkles-proxmox-dashboard
-    restart: unless-stopped
+  dummy:
+    image: hello-world

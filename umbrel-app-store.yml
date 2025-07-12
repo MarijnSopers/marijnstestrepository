@@ -1,4 +1,4 @@
-id: "sparkles"        # Your app store ID (used as prefix for all app IDs)
-name: "marijn"        # The store name (shows up as "marijn App Store")
+id: "sparkles"
+name: "Sparkles"
 apps:
-  - sparkles-proxmox-dashboard  # Must match folder and app ID
+  - sparkles-proxmox-dashboard
