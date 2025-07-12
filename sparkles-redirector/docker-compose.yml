@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app_proxy:
-    image: morbz/docker-web-redirect:stable-alpine
+    image: morbz/docker-web-redirect
     environment:
       REDIRECT_TARGET: http://192.168.6.251:8006
     ports:
