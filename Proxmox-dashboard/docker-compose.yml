@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  app_proxy:
+    image: getumbrel/nginx-static
+    restart: always
+    volumes:
+      - ./ui:/app
+    ports:
+      - "80:80"
