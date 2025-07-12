@@ -5,7 +5,7 @@ tagline: Redirects to your internal service
 icon: "https://www.svgrepo.com/download/504466/home-assistant.svg"
 category: Utilities
 version: "1.0.0"
-port: 8890
+port: 8895
 description: >-
   homeasistant
 
