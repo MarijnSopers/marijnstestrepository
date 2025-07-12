@@ -1,15 +1,30 @@
+manifestVersion: 1
 id: sparkles-proxmox-dashboard
-name: Proxmox Dashboard
+name: proxmox
+tagline: Replace this tagline with your app's tagline
+icon: https://svgur.com/i/mvA.svg
+category: Development
 version: "1.0.0"
-tagline: Open your Proxmox dashboard
-description: >
-  A simple shortcut to open your local Proxmox server dashboard in a new tab.
-developer: Marijn
-website: https://192.168.6.251:8006
-icon: https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/proxmox.png
-gallery: []
-port: 8006
-path: /
-type: external
-releaseNotes: >
-  Initial release.
+port: 4000
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
