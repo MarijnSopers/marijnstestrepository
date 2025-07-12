@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: sparkles-proxmox-dashboard
-name: Proxmox Redirect
+name: Proxmox 
 tagline: Redirects to Proxmox web UI
 icon: https://svgur.com/i/mvA.svg
 category: Tools
