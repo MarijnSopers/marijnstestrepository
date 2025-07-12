@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: sparkles-redirector
+name: Redirector
+tagline: Reverse proxy to 192.168.6.251:8006
+icon: https://svgur.com/i/mvA.svg
+category: Utilities
+version: "1.0.0"
+port: 3000
+description: >-
+  This app acts as a reverse proxy to your internal app running at 192.168.6.251:8006.
+
+developer: YourName
+website: https://yourwebsite.example.com
+submitter: YourName
+submission: https://github.com/yourusername/umbrel-redirector
+repo: https://github.com/yourusername/umbrel-redirector
+support: https://github.com/yourusername/umbrel-redirector/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release of the redirector app.
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+
+services:
+  redirector:
+    build: .
+    container_name: redirector
+    restart: unless-stopped
+    ports:
+      - 3000:80
+    environment:
+      - TZ=Etc/UTC
