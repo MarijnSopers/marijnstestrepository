@@ -5,7 +5,7 @@ tagline: Redirect to another device on your LAN
 icon: https://svgur.com/i/mvA.svg
 category: Network
 version: "1.0.1"
-port: 777
+port: 7788
 description: >-
   Redirects Umbrel traffic to http://192.168.6.251:8006 using an Alpine-based image.
 
