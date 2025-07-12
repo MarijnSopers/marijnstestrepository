@@ -1,10 +1,14 @@
-version: '3.8'
+version: "3.7"
 
 services:
-  redirector:
+
+  app_proxy:
     image: nginx:stable-alpine
     ports:
-      - "3000:8080"
+      - "3000:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    environment:
+      APP_HOST: 192.168.6.251
+      APP_PORT: 8006
     restart: unless-stopped
