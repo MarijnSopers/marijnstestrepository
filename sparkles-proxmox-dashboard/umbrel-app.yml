@@ -1,0 +1,11 @@
+id: sparkles-proxmox-dashboard
+name: Proxmox Dashboard
+version: "0.1.0"
+description: Open your Proxmox VE dashboard from Umbrel.
+releaseNotes: Initial release of the Proxmox Dashboard app.
+developer: Marijn
+repo: https://github.com/<your-github>/prox-dashboard  # Optional
+support: https://github.com/<your-github>/prox-dashboard/issues  # Optional
+port: 80
+webUI:
+  url: https://192.168.6.251:8006
