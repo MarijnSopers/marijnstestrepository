@@ -1,24 +1,24 @@
 manifestVersion: 1
 id: sparkles-redirector
-name: Redirectorrrr
-tagline: Redirect to another device on your LAN
+name: Sparkles Redirector
+tagline: Redirects to your internal service
 icon: https://svgur.com/i/mvA.svg
-category: Network
-version: "1.0.1"
-port: 7788
+category: Utilities
+version: "1.0.0"
+port: 8888
 description: >-
-  Redirects Umbrel traffic to http://192.168.6.251:8006 using an Alpine-based image.
+  Simple redirector app to your IP:192.168.6.251:8006
 
-developer: You
-website: https://github.com
-submitter: You
-submission: https://github.com/yourrepo/umbrel-redirector
-repo: https://github.com/yourrepo/umbrel-redirector
-support: https://github.com/yourrepo/umbrel-redirector/issues
+developer: YourName
+website: https://github.com/yourname/sparkles-redirector
+submitter: YourName
+submission: https://github.com/yourname/sparkles-redirector
+repo: https://github.com/yourname/sparkles-redirector
+support: https://github.com/yourname/sparkles-redirector/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Updated to avoid port 80 conflict.
+  Initial release
 dependencies: []
 path: ""
 defaultUsername: ""

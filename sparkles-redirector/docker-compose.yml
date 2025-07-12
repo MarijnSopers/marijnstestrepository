@@ -1,10 +1,10 @@
-version: "3.7"
-
 services:
   app_proxy:
-    image: morbz/docker-web-redirect
     environment:
-      REDIRECT_TARGET: http://192.168.6.251:8006
+      APP_HOST: sparkles-redirector_server_1
+      APP_PORT: 80
+
+  server:
+    image: morbz/docker-web-redirect:stable-alpine
     ports:
-      - 7788:80
-    restart: unless-stopped
+      - 8888:80   # Host port 8888 forwarded to container port 80
