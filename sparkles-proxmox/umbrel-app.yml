@@ -1,13 +1,13 @@
 manifestVersion: 1
 id: sparkles-proxmox
 name: Proxmox Dashboard
-tagline: Quick link to your Proxmox server
+tagline: Access your Proxmox web UI
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
 port: 4000
-description: >
-  Redirects you to your Proxmox web interface.
+description: >-
+  A simple Umbrel app that redirects to your local Proxmox server.
 
 developer: YourName
 website: https://proxmox.com
@@ -17,9 +17,6 @@ repo: https://github.com/yourname/sparkles-proxmox-dashboard
 support: https://github.com/yourname/sparkles-proxmox-dashboard/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >
-  Initial version with Nginx reverse proxy to Proxmox.
+releaseNotes: >-
+  Initial version - simple redirect to external Proxmox server.
 dependencies: []
-path: ""
-defaultUsername: ""
-defaultPassword: ""
