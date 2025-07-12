@@ -2,9 +2,9 @@ version: "3.7"
 
 services:
   app_proxy:
-    image: morbz/docker-web-redirect:latest
-    ports:
-      - "3000:80"
+    image: morbz/docker-web-redirect:stable-alpine
     environment:
-      - REDIRECT_TARGET="https://192.168.6.251:8006"
+      REDIRECT_TARGET: http://192.168.6.251:8006
+    ports:
+      - 8888:80
     restart: unless-stopped
