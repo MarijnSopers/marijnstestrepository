@@ -1,5 +1,9 @@
 version: "3.7"
 
 services:
-  dummy:
-    image: hello-world
+  app:
+    image: nginx:alpine
+    ports:
+      - "3000:80"   # Umbrel uses this port internally for your app
+    volumes:
+      - ./docker:/usr/share/nginx/html:ro

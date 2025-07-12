@@ -1,27 +1,20 @@
 manifestVersion: 1
 id: sparkles-proxmox-dashboard
-name: proxmox
-tagline: Simple Proxmox monitor for Umbrel
+name: Proxmox Redirect
+tagline: Redirects to Proxmox web UI
 icon: https://svgur.com/i/mvA.svg
-category: Development
+category: Tools
 version: "1.0.0"
-port: 4000
+port: 3000
 description: >-
-  Monitor your Proxmox server directly from Umbrel!
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+  Opens the Proxmox dashboard at https://192.168.6.251:8006
+developer: Your Name
+website: https://proxmox.com
+submitter: Your Name
+repo: https://github.com/your/repo
+support: https://github.com/your/repo/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  First release - connects to Proxmox instance on local network.
+releaseNotes: Initial release - redirect to Proxmox
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
-env:
-  PROXMOX_HOST: 192.168.6.251
-  PROXMOX_PORT: 8006
