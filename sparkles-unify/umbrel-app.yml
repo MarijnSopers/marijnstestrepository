@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkles-unify
 name: Unify 
 tagline: Redirects to your internal service
-icon: "./sparkles-unify/ubiquiti-svgrepo-com.svg"
+icon: "https://www.svgrepo.com/download/349542/ubiquiti.svg"
 category: Utilities
 version: "1.0.0"
 port: 8889
