@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkles-jellyfin
 name: Jellyfin 
 tagline: Redirects to your internal service
-icon: "./Jellyfin_-_icon-transparent.svg"
+icon: "https://upload.wikimedia.org/wikipedia/commons/4/41/Jellyfin_-_icon-transparent.svg"
 category: Utilities
 version: "1.0.0"
 port: 8891

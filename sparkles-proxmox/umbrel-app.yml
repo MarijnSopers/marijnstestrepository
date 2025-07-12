@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkles-proxmox
 name: Proxmox 
 tagline: Redirects to your internal service
-icon: "./proxmox.svg"
+icon: "https://www.svgrepo.com/download/331552/proxmox.svg"
 category: Utilities
 version: "1.0.0"
 port: 8888

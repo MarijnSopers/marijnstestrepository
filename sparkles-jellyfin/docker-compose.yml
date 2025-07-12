@@ -6,4 +6,4 @@ services:
     ports:
       - 8891:80
     environment:
-      - REDIRECT_TARGET=http://192.168.6.116:8096/
+      - REDIRECT_TARGET=http://192.168.6.116:8096

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkles-homeasistant
 name: Homeassistant 
 tagline: Redirects to your internal service
-icon: "./New_Home_Assistant_logo.svg"
+icon: "https://www.svgrepo.com/download/504466/home-assistant.svg"
 category: Utilities
 version: "1.0.0"
 port: 8890
