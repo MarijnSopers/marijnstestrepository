@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: sparkles-homeasistant
+id: sparkles-homeassistant
 name: Homeassistant 
 tagline: Redirects to your internal service
 icon: "https://www.svgrepo.com/download/504466/home-assistant.svg"
