@@ -7,7 +7,7 @@ category: Utilities
 version: "1.0.0"
 port: 8892
 description: >-
-  unify
+  craftycontroller
 
 developer: YourName
 website: https://github.com/yourname/sparkles-redirector
