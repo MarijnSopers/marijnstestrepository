@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: sparkles-homeassistant
-name: Homeassistant 
+id: sparkles-openwebui
+name: openwebui 
 tagline: Redirects to your internal service
-icon: "https://nl.wikipedia.org/wiki/Home_Assistant#/media/Bestand:New_Home_Assistant_logo.svg"
+icon: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/open-webui-light.svg"
 category: Utilities
 version: "1.0.0"
-port: 8890
+port: 8895
 description: >-
   homeasistant
 
