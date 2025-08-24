@@ -4,6 +4,6 @@ services:
   server:
     image: morbz/docker-web-redirect
     ports:
-      - 8890:80
+      - 8895:80
     environment:
       - REDIRECT_TARGET=http://192.168.6.59:8080/
