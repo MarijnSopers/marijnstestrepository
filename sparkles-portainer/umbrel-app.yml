@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: sparkles-portainer
+name: Portainer
+tagline: Redirects to your internal service
+icon: "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_100/https%3A%2F%2Fapi.charmhub.io%2Fapi%2Fv1%2Fmedia%2Fdownload%2Fcharm_Owpj9CsDEMZwVtup3ZTxxs0FtyvDqb2o_icon_5cef79c2d18f67464f39c8f2cf2d7ebb815b0071f04d3ffbb94f49fddd3ab666.png"
+category: Utilities
+version: "1.0.0"
+port: 8900
+description: >-
+  portainer
+
+developer: YourName
+website: https://github.com/yourname/sparkles-redirector
+submitter: YourName
+submission: https://github.com/yourname/sparkles-redirector
+repo: https://github.com/yourname/sparkles-redirector
+support: https://github.com/yourname/sparkles-redirector/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
