@@ -6,4 +6,4 @@ services:
     ports:
       - 8898:80
     environment:
-      - REDIRECT_TARGET=http://192.168.6.239 
+      - REDIRECT_TARGET=http://192.168.6.239:5000
