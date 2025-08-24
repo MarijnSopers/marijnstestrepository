@@ -2,12 +2,12 @@ manifestVersion: 1
 id: sparkles-homeassistant
 name: Homeassistant 
 tagline: Redirects to your internal service
-icon: "https://upload.wikimedia.org/wikipedia/commons/a/ab/New_Home_Assistant_logo.svg"
+icon: "https://www.svgrepo.com/download/349542/ubiquiti.svg"
 category: Utilities
 version: "1.0.0"
-port: 8896
+port: 8899
 description: >-
-  homeasistant
+  unify
 
 developer: YourName
 website: https://github.com/yourname/sparkles-redirector

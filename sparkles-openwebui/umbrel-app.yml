@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: sparkles-openwebui
-name: openwebui 
+name: Openwebui 
 tagline: Redirects to your internal service
 icon: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/open-webui-light.svg"
 category: Utilities
