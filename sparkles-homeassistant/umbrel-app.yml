@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkles-homeassistant
 name: Homeassistant 
 tagline: Redirects to your internal service
-icon: "https://www.svgrepo.com/download/349542/ubiquiti.svg"
+icon: "https://www.svgrepo.com/show/373667/homeassistant.svg"
 category: Utilities
 version: "1.0.0"
 port: 8899
