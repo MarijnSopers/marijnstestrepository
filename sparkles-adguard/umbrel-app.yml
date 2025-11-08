@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: sparkles-unifi
-name: Unify 
+id: sparkles-AdGuard
+name: AdGuard
 tagline: Redirects to your internal service
-icon: "https://www.svgrepo.com/show/373667/homeassistant.svg"
+icon: "https://cdn.adguardcdn.com/website/adguard.com/svg/shield.svg"
 category: Utilities
 version: "1.0.0"
-port: 8889
+port: 8900
 description: >-
   unify
 
